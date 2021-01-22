@@ -1,0 +1,160 @@
+.section-title {
+
+    /* margin-left: 400px; */
+
+    font-size: xx-large;
+
+    font-weight: bold;
+
+    color: black;
+
+    text-align: center;
+
+    text-transform: uppercase;
+
+}
+
+
+
+.post {
+
+    display: inline-flex;
+
+    border: 1px solid rgba(0,0,0,0.3);
+
+    width: 500px;
+
+    padding: 10px;
+
+    box-shadow: 0 0 16px rgba(0,0,0,0.5);
+
+    border-radius: 4px;
+
+    margin-bottom: 20px;
+
+    margin-left: 20px;
+
+}
+
+
+
+.img-thumb {
+
+    width: 200px;
+
+    height: 200px;
+
+    margin-right: 20px;
+
+}
+
+
+
+.img-thumb img {
+
+    width: 200px;
+
+    height: 200px;
+
+    object-fit: cover;
+
+}
+
+
+
+.content {
+
+    flex: 1
+
+}
+
+
+
+.content p.title {
+
+    margin: 0px;
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+    color: black;
+
+    margin-bottom: 16px;    
+
+    text-transform: capitalize;
+
+}
+
+
+
+content p.desc {
+
+    margin: 0px;
+
+    font-size: 16px;
+
+    color: black;
+
+}
+
+.remove{
+    padding: 12px 18px;
+    background: red;
+    color: white;
+    border-radius: 50px;
+    margin-top: 18px;
+}
+
+.update{
+    padding: 12px 18px;
+    background: blue;
+    color: white;
+    border-radius: 50px;
+    margin-top: 18px;
+}
+
+.remove:hover, .update:hover{
+    cursor: pointer;
+}
+
+.form-add-post{
+    border: 1px solid rgba(0,0,0,0.3);
+    width: 500px;
+    padding: 10px;
+    box-shadow: 0 0 16px rgba(0,0,0,0.5);
+    border-radius: 4px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+}
+
+.form-add-post label{
+    display: block;
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.form-add-post input, .form-add-post textarea{
+    outline: none;
+    border: 1px solid black;
+    padding: 12px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 12px;
+    color: black;
+}
+
+.btn-submit{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 12px 18px;
+    background: red;
+    color: white;
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-left: 200px;
+}
