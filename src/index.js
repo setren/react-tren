@@ -9,13 +9,14 @@ import reportWebVitals from './reportWebVitals';
 // import Home from "./container/home/Home";
 // import BapakAnak from "./BapakAnak/BapakAnak";
 // import Table from './Form/ReactDynamicTable';
-import FormPendaftaran from './Form/FormPendaftaran';
+// import FormPendaftaran from './Form/FormPendaftaran';
+import App from './Calculator Using React/Panel';
 
 
 
 
 
-ReactDOM.render(<FormPendaftaran/>,document.getElementById('root'));
+ReactDOM.render(<App/>,document.getElementById('root'));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

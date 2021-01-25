@@ -1,0 +1,52 @@
+.result-place{
+  margin-right: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-top: 50px;
+  width: 390px;
+  border: solid 1px black;
+  border-radius: 20px;
+  padding: 0px;
+  font-size: 70px;
+  color: #724caf; 
+ }
+
+.button-kali-place{
+  clear:both;
+  position:relative;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-top: 50px;
+  width: 350px;
+  border: solid 1px black;
+  border-radius: 20px;
+  padding: 20px;
+  }
+
+.button-kali {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #724caf;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.button-kali:hover {background-color: #713e8e}
+
+.button-kali:active {
+  background-color: #713e8e;
+  box-shadow: 0 5px rgb(102, 102, 102);
+  transform: translateY(4px);
+}
